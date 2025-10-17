@@ -29,7 +29,7 @@ Thumbs.db
 
 # Private configuration files
 project.private.config.json
-project.config.json
+
 
 # Debug logs
 npm-debug.log*
