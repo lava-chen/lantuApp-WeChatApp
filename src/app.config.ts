@@ -1,6 +1,7 @@
 export default defineAppConfig({
   pages: [
     'pages/index/index',
+    'pages/map/index',
     'pages/records/index',
     'pages/mine/index'
   ],
@@ -29,11 +30,18 @@ export default defineAppConfig({
         selectedIconPath: './assets/images/records_active.png'
       },
       {
+        pagePath: 'pages/map/index',
+        text: '地图',
+        iconPath: './assets/images/map.png',
+        selectedIconPath: './assets/images/map_active.png'
+      },
+      {
         pagePath: 'pages/mine/index',
         text: '我的',
         iconPath: './assets/images/user.png',
         selectedIconPath: './assets/images/user_active.png'
       }
+      
     ]
   }
 })

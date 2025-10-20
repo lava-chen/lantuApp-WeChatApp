@@ -145,7 +145,7 @@ export default function Mine() {
           </>
         ) : (
           <Button type="primary" className="login-btn" onClick={handleLogin}>
-            点击登录
+            使用微信登录
           </Button>
         )}
       </View>

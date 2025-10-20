@@ -1,5 +1,5 @@
 export default definePageConfig({
-  navigationBarTitleText: '我的'
+  navigationBarTitleText: '澜图智衡'
 })
 
 
